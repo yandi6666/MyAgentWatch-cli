@@ -1,0 +1,2 @@
+@echo off
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\??\Desktop\claude-win32-x64\myagentwatch-cli\start-codex-heartbeat.ps1"

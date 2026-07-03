@@ -1,0 +1,20 @@
+[project]
+name = "myagentwatch-cli"
+version = "0.1.0"
+description = "MyAgentWatch CLI — Agent 客户端"
+requires-python = ">=3.10"
+license = "AGPL-3.0-only"
+authors = [{ name = "Tianyu" }]
+classifiers = [
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+]
+dependencies = [
+    "psutil>=5.9",
+]
+
+[project.scripts]
+myaw = "myagentwatch_cli.cli:main"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
